@@ -1,0 +1,13 @@
+
+
+libro {
+	display:block;
+  
+  border-bottom: 1px solid ;
+  
+}
+titulo{font-weight: bold;}
+titulo, autor, fechaPublicacion {
+  
+  display:block;
+}

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="supermercado">
+		<complexType>
+			<sequence>
+				<element name="articulo" minOccurs="1" maxOccurs="unbounded">
+		<complexType>
+		<sequence>
+			<element name="descripcion" type="string"/>
+			<element name="marca" minOccurs="0" maxOccurs="1">
+			  <simpleType>
+			    <restriction base="string">
+			      <enumeration value="Pascual"/>
+			      <enumeration value="Puleva"/>
+			    </restriction>
+			  </simpleType>
+        </element>
+			<element name="medida" type="string" />
+			<element name="seccion">
+			  <simpleType>
+			    <restriction base="string">
+			      <enumeration value="Leche y Batidos"/>
+			      <enumeration value="Frutas y verduras"/>
+			    </restriction>
+			  </simpleType>
+			  </element>
+            <element name="oferta" type="string" minOccurs="0" maxOccurs="unbounded" />
+            <element name="perecedero" minOccurs="0" maxOccurs="1">
+            <complexType>
+              <sequence>
+                <element name="fabricacion" type="string" minOccurs="0" maxOccurs="1"/>
+                <element name="caducidad" type="string" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </complexType>
+          </element>
+        </sequence>
+		  <attribute name="id" type="string" use="required"/>
+		</complexType>
+    </element>
+    </sequence>
+    </complexType>
+  </element>
+</schema>

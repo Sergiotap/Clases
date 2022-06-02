@@ -1,0 +1,83 @@
+/*Estilos generales
+
+Texto justidicado 
+fuente "Comic Sans MS", cursive, sans-serif;
+
+/*Encabezado
+
+color: #EDF1F1;
+
+/*Menú de navegación
+
+Color de fondo #24252A;
+Color del texto #FFFFFF
+
+/*Botón de suscripcion del menú
+
+Color de fondo #F81D44;
+Color al pasar el ratón: green; 
+
+
+/*Pie de página
+
+Altura 25px
+Color de fondo black;
+color de las letras: blanco */
+
+/* ENCABEZADO MENÚ*/
+#enlace_menu {display:flex;
+			  list-style:none;
+			  font-family:"Comic Sans MS", cursive, sans-serif;
+			  background-color:#24252A;
+			  height:52px;
+			  position:relative;  
+}
+#enlace_menu a:link{text-decoration:none;
+					color:#FFFFFF;			
+}
+#enlace_menu li {margin-top:12px;}
+#enlace_menu a:visited{color:#FFFFFF;			   
+}
+.suscribete{margin-left:655px;
+			background-color:#F81D44;
+			border-radius:20px;
+			margin-bottom:10px;
+			margin-top:10px;
+			width:110px;
+			height:30px;
+			}
+.suscribete a{margin-left:10px;
+			  padding-top:7px;
+}
+#frases{margin-left:40px;
+}
+#personajes{margin-left:60px;
+}
+.suscribete:hover{background-color:green;
+} 
+#frases a:hover{color:red;
+			    text-decoration:underline;
+}
+#personajes a:hover{color:red;
+			        text-decoration:underline;
+}
+
+/* Pie de página*/
+footer {position:relative;
+		height:25px;
+		background-color:#24252A;
+}
+footer ul{display:flex;
+		  margin-top:0px;
+		  list-style:none;
+		  
+}
+footer a {padding-left:30px;
+		  font-family:"Comic Sans MS", cursive, sans-serif;}
+footer ul a:link{text-decoration:none;
+				 color:#FFFFFF;	
+}
+footer a:visited{color:#FFFFFF;			   
+}
+
+

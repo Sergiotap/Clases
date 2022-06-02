@@ -1,0 +1,26 @@
+
+/*Estilos generales*/
+body {
+    font-family: sans-serif;
+}
+
+
+/*Formulario*/
+#contenedor-formulario {
+    Anchura 400px;
+    color de fondo #ffffff;
+}
+
+#sorteo {
+	anchura 1100px
+}
+
+
+
+/*Botón enviar*/
+.boton {    
+	Anchura: 300px;
+    Color de fondo: #333333;
+	Color al pasar el ratón: f81d44;
+}
+

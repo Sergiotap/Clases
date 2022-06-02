@@ -1,0 +1,14 @@
+
+libro{
+	margin:10px;
+	padding: 10px;
+	display: table;
+	background-color:green;
+	display:block;
+  
+  border: black 1px solid;}
+titulo{font-weight: bold;}
+titulo, autor, fechaPublicacion {
+border-spacing: 20px;
+  display: block;
+}

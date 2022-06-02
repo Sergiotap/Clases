@@ -1,0 +1,12 @@
+Ejercicio 8 
+--Repartidores
+--Empresas (Nombre,CIF,Dirección)
+--Accionistas (Nombre, NIF, Dirección)
+-Ciudad (De España)
+-Piscina (nombre, dirección, teléfono)
+-Propietario (Nombre, dirección, teléfono, NIF)
+-Congregaciones (Cod.Congregación, Nombre, dirección, teléfono)
+--Cloro (Nº atómico, Cod.Cloro, Peso atómico)
+--Opciones Cloro (Nombre, descripcción, Cod.opción)
+
+

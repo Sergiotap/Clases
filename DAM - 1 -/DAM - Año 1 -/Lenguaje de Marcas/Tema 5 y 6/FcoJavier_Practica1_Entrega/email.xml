@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bandeja>
+	<correo >
+		<destinatario>
+			<nombre>Pedro</nombre>
+			<direccion>pedrito@outlook.es</direccion>
+		</destinatario>
+		<remitente>
+			<nombre>Albertoroto</nombre>
+			<direccion>Albertin@gmail.com</direccion>
+		</remitente>
+		<asunto>rtx 3050</asunto>
+		<cuerpo>Hola buenos días, me apetece comprar una RTX 3050</cuerpo>
+	</correo>
+</bandeja>

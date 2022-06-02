@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos [
+<!ELEMENT pedidos (producto+)>
+
+
+
+
+]>
+
+<pedidos>
+
+    <producto>
+    
+      <cortadora.cesped>
+      
+      </cortadora.cesped>
+      
+    </producto>
+
+
+
+
+
+
+</pedidos>

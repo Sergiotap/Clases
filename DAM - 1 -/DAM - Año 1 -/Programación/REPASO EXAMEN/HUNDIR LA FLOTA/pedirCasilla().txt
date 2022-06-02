@@ -1,0 +1,18 @@
+public static int [] pedirCasilla() {
+		//Declaración del vector que guardará las coordenadas
+		int[] c = new int[2];
+		String coordenadas;
+		char coordenada1, coordenada2;
+		System.out.println("Introduce las coordenadas del disparo:");
+		coordenadas=dato.next();
+		coordenada1=Character.toUpperCase(coordenadas.charAt(0));
+		coordenada2=coordenadas.charAt(1);
+		if(Character.getNumericValue(coordenada1)<Character.getNumericValue('A')+TAMANIO && Character.getNumericValue(coordenada2)<Character.getNumericValue('0')+TAMANIO){
+			c[0]=Character.getNumericValue(coordenada1)-Character.getNumericValue('A');
+			c[1]=Character.getNumericValue(coordenada2-1)-Character.getNumericValue('0');		
+		} else {
+			c[0]=-1;
+			c[1]=-1;
+		}
+		return c;
+	}

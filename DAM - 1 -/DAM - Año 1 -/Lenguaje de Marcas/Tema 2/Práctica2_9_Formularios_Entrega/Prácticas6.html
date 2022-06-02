@@ -1,0 +1,34 @@
+<!--DOCTYPE HTML 5 -->
+<html>
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<form action="www.banco.es/acceso">
+			<table style="margin:auto;color:lightblue;font-weight:bold;">
+				<tr>
+					<td style="width:220px;">Tipo de documento : </td>
+					<td><img src="media/verificar.png"/></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<select> 
+							<option selected="selected" value="1">NIF</option>
+							<option value="2">Pasaporte</option>
+							<option value="3">DNI</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><label>Número de documento:</br><input pattern="[0-9]{8}[A-Za-z]{1}" type="text"/></label></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label>Fecha de nacimiento:</br><input style="width:60px" type="text" pattern="{2}"/><input style="width:60px" type="text" pattern="{2}"/><input style="width:80px" type="text" pattern="{4}"/></label></td>
+				</tr>
+				<tr>
+					<td style="text-align:center;" colspan="2"><input style="background-color:#DFDFD7;" value="ENTRAR" type="submit"/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

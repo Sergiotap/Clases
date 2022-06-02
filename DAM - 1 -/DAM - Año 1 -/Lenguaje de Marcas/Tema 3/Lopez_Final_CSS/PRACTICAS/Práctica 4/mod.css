@@ -1,0 +1,13 @@
+h1{text-decoration:underline;
+	}
+.clase2 {color:#006600;
+		}
+.clase2 span{text-decoration:underline;
+			}
+.clase1 {color:FF6600;}
+.clase1 span {text-decoration:underline;
+			  font-weight:bold;
+			  color:FF0044;}
+#despedida  {text-align:right;
+			 color:red;
+			 background-color:#99CCFF;}

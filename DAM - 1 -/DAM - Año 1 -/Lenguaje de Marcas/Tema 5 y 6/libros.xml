@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros [
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo,autor+,isbn?,precio?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+]>
+<libros>
+        <libro>
+            <titulo>norelevante</titulo>
+            <autor>Pedrin</autor>
+            <isbn>23823</isbn>
+            <precio>15</precio>
+       </libro> 
+</libros>

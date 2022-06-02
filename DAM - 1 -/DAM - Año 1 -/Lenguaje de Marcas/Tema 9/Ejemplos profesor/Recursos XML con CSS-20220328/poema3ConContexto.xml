@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejemplo5.css" type="text/css"?>
+<POEMA>
+     <PRIMERO>
+         <VERSO> La princesa está triste... ¿qué tendrá la princesa?</VERSO>
+     </PRIMERO>
+         <VERSO> Los suspiros se escapan de su boca de fresa,</VERSO>
+         <VERSO> que ha perdido la risa, que ha perdido el color.</VERSO>
+         <VERSO>... </VERSO>
+</POEMA>

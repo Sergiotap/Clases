@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+<!ELEMENT agenda (contactos)>
+<!ELEMENT libro (nombre,email*,telefono+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono tipo CDATA "movil">
+<!ATTLIST email tipo CDATA "outlook">
+]>
+<agenda>
+  <contacto>
+    <nombre>xddd</nombre>
+    <email>ojito@ojete.com</email>
+    <email tipo="outlook" >oito@ojete.es</email>
+    <telefono tipo="movil">11111</telefono>
+    <telefono tipo="trabajo">222222</telefono>
+    <telefono  tipo="variable">333333</telefono>
+  </contacto>
+</agenda>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre+,nacimiento?,direccion+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento (dia?,mes?,año?)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT direccion (calle+,problacion+,provincia+,cpostal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT problacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cpostal (#PCDATA)>
+<!ATTLIST persona sexo CDATA "varon">
+]>
+<personas>
+  <persona sexo="varon">
+      <nombre>Juan Pardo</nombre>
+      <nacimiento>
+        <dia>10</dia>
+        <mes>abril</mes>
+        <año>anyo</año>
+      </nacimiento>
+      <direccion>
+        <calle>Caoba,1</calle>
+        <problacion>Madrid</problacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28005</cpostal>
+      </direccion>
+  </persona>
+</personas>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogocds.xsl"?>
+<catalogo>
+	<cd>
+		<titulo>Empire Burlesque</titulo>
+		<artista>Bob Dylan</artista>
+		<pais>USA</pais>
+		<company>Columbia</company>
+		<precio>10.90</precio>
+		<anio>1985</anio>
+	</cd>
+	<cd>
+		<titulo>Esconde tu corazon</titulo>
+		<artista>Bonnie Tyler</artista>
+		<pais>UK</pais>
+		<company>CBS Records</company>
+		<precio>9.90</precio>
+		<anio>1988</anio>
+	</cd>
+	<cd>
+		<titulo>Greatest Hits</titulo>
+		<artista>Dolly Parton</artista>
+		<pais>USA</pais>
+		<empresa>RCA</empresa>
+		<precio>9.90</precio>
+		<anio>1982</anio>
+	</cd>
+	<cd>
+		<titulo>Aun tengo el blues</titulo>
+		<artista>Gary Moore</artista>
+		<pais>UK</pais>
+		<empresa>Virgin records</empresa>
+		<precio>10.20</precio>
+		<anio>1990</anio>
+	</cd>
+	<cd>
+		<titulo>Eros</titulo>
+		<artista>Eros Ramazzotti</artista>
+		<pais>EU</pais>
+		<empresa>BMG</empresa>
+		<precio>9.90</precio>
+		<anio>1997</anio>
+	</cd>
+	<cd>
+		<titulo>Solo una noche</titulo>
+		<artista>Bee Gees</artista>
+		<pais>UK</pais>
+		<empresa>Polydor</empresa>
+		<precio>10.90</precio>
+		<anio>1998</anio>
+	</cd>
+	<cd>
+		<titulo>Sylvias Madre</titulo>
+		<artista>Dr.Hook</artista>
+		<pais>UK</pais>
+		<empresa>CBS</empresa>
+		<precio>8.10</precio>
+		<anio>1973</anio>
+	</cd>
+	<cd>
+		<titulo>Maggie May</titulo>
+		<artista>Rod Stewart</artista>
+		<pais>UK</pais>
+		<empresa>Pickwick</empresa>
+		<precio>8.50</precio>
+		<anio>1990</anio>
+	</cd>
+	<cd>
+		<titulo>Romanza</titulo>
+		<artista>Andrea Bocelli</artista>
+		<pais>EU</pais>
+		<empresa>Polydor</empresa>
+		<precio>10.80</precio>
+		<anio>1996</anio>
+	</cd>	
+	<cd>
+		<titulo>Cuando un hombre ama a una mujer</titulo>
+		<artista>Percy Sledge</artista>
+		<pais>USA</pais>
+		<empresa>Atlantic</empresa>
+		<precio>8.70</precio>
+		<anio>1987</anio>
+	</cd>
+	<cd>
+		<titulo>Angel negro</titulo>
+		<artista>Savage Rose</artista>
+		<pais>EU</pais>
+		<empresa>Mega</empresa>
+		<precio>10.90</precio>
+		<anio>1995</anio>
+	</cd>
+	<cd>
+		<titulo>1999 Grammy Nominees</titulo>
+		<artista>Many</artista>
+		<pais>USA</pais>
+		<empresa>Grammy</empresa>
+		<precio>10.20</precio>
+		<anio>1999</anio>
+	</cd>
+	<cd>
+		<titulo>Por los Buenos tiempos</titulo>
+		<artista>Kenny Rogers</artista>
+		<pais>UK</pais>
+		<empresa>Mucik Master</empresa>
+		<precio>8.70</precio>
+		<anio>1995</anio>
+	</cd>
+	<cd>
+		<titulo>Big Willie style</titulo>
+		<artista>Will Smith</artista>
+		<pais>USA</pais>
+		<empresa>Columbia</empresa>
+		<precio>9.90</precio>
+		<anio>1997</anio>
+	</cd>
+	<cd>
+		<titulo>Tupelo Honey</titulo>
+		<artista>Van Morrison</artista>
+		<pais>UK</pais>
+		<empresa>Polydor</empresa>
+		<precio>8.20</precio>
+		<anio>1971</anio>
+	</cd>
+	<cd>
+		<titulo>Soulsville</titulo>
+		<artista>Jorn Hoel</artista>
+		<pais>Norway</pais>
+		<empresa>WEA</empresa>
+		<precio>7.90</precio>
+		<anio>1996</anio>
+	</cd>
+	<cd>
+		<titulo>The very best of</titulo>
+		<artista>Cat Stevens</artista>
+		<pais>UK</pais>
+		<empresa>Island</empresa>
+		<precio>8.90</precio>
+		<anio>1990</anio>
+	</cd>
+	<cd>
+		<titulo>Detengase</titulo>
+		<artista>Sam Brown</artista>
+		<pais>UK</pais>
+		<empresa>A and M</empresa>
+		<precio>8.90</precio>
+		<anio>1988</anio>
+	</cd>
+	<cd>
+		<titulo>Puente de los espias</titulo>
+		<artista>T`Pau</artista>
+		<pais>UK</pais>
+		<empresa>Siren</empresa>
+		<precio>7.90</precio>
+		<anio>1987</anio>
+	</cd>
+	<cd>
+		<titulo>Private Dancer</titulo>
+		<artista>Tina Turner</artista>
+		<pais>UK</pais>
+		<empresa>Capitol</empresa>
+		<precio>8.90</precio>
+		<anio>1983</anio>
+	</cd>
+	<cd>
+		<titulo>Midt om natten</titulo>
+		<artista>Kim Larsen</artista>
+		<pais>EU</pais>
+		<empresa>Medley</empresa>
+		<precio>7.80</precio>
+		<anio>1983</anio>
+	</cd>
+	<cd>
+		<titulo>Concierto de Gala de Pavarotti</titulo>
+		<artista>Luciano Pavarotti</artista>
+		<pais>UK</pais>
+		<empresa>DECCA</empresa>
+		<precio>9.90</precio>
+		<anio>1991</anio>
+	</cd>
+	<cd>
+		<titulo>El muelle de la bahia</titulo>
+		<artista>Otis Redding</artista>
+		<pais>USA</pais>
+		<empresa>Atlantic</empresa>
+		<precio>7.90</precio>
+		<anio>1987</anio>
+	</cd>
+	<cd>
+		<titulo>Libro ilustrado</titulo>
+		<artista>Simply Red</artista>
+		<pais>EU</pais>
+		<empresa>Elektra</empresa>
+		<precio>7.20</precio>
+		<anio>1985</anio>
+	</cd>
+
+	<cd>
+		<titulo>Rojo</titulo>
+		<artista>The Communards</artista>
+		<pais>UK</pais>
+		<empresa>London</empresa>
+		<precio>7.80</precio>
+		<anio>1987</anio>
+	</cd>
+
+	<cd>
+		<titulo>Suelta mi corazon</titulo>
+		<artista>Joe Cocker</artista>
+		<pais>USA</pais>
+		<empresa>EMI</empresa>
+		<precio>8.20</precio>
+		<anio>1987</anio>
+	</cd>
+</catalogo>

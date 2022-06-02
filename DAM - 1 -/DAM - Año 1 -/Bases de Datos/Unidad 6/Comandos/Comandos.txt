@@ -1,0 +1,2 @@
+Acceder como administrador total:
+sqlplus sys as sysdba

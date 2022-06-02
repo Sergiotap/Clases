@@ -1,0 +1,74 @@
+/*Estilos generales
+h2 {
+    text-align: center;
+    margin: 12px 0;
+}
+Caja que contiene los personajes
+.personaje {
+	Anchura 1100 px
+}
+.personaje_i {
+	anchura 900 px
+}
+.personaje_d {
+	Anchura 900px
+}
+.pie {
+	anchura 475px
+}
+*/
+/*Contenedor principal*/
+.cuerpo{margin:0 auto;
+		width:1100px;
+		height:1000px;
+}
+
+/*Seccion central*/
+.personaje{font-family:"Comic Sans MS", cursive, sans-serif;}
+h2{text-align:center;
+   margin:12px 0;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.personaje_i img{float:left;
+				 padding:14px;
+				 }
+				 
+.personaje_d img{float:right;
+				 padding:14px;}
+				 
+.personaje_i{text-align:justify;
+			 box-shadow:5px 5px 10px #BDBDBD;
+			 position:relative;
+			 width:900px;
+			 height:160px;
+			 border-radius:20px;
+			 margin-left:55px;}
+
+.personaje_i p{padding-right:10px;}
+
+.personaje_d{box-shadow:-5px -5px 10px #BDBDBD;
+			 position:relative;
+			 text-align:justify;
+			 margin-top:35px;
+			 width:900px;
+			 height:160px;
+			 margin-left:135px;
+			 border-radius:20px;
+}
+
+.personaje_d p{padding-left:10px;}
+
+.pie{position:relative;
+	 border-left:solid 2px #E13D8F;
+	 border-bottom:solid 2px #E13D8F;
+	 border-right:dotted 2px #E13D8F;
+	 width:480px;
+	 border-radius:15px;
+	 margin-left:552px;
+	 padding-left:3px;
+	 }
+
+
+
+

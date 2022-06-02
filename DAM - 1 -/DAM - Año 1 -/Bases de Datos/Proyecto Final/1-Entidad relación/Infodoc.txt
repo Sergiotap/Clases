@@ -1,0 +1,47 @@
+Orquesta:
+- Cod.orquesta
+- Nombre
+- Direccion (localidad,calle,ciudad,etc)
+- fecha 
+
+
+Director:
+- Cod.director
+- Titulacion
+- Nombre
+- Direccion (localidad,calle,ciudad,etc)
+- Fecha de Nacimiento
+- DNI
+
+Concierto:
+- Cod.concierto
+- Nombre
+
+Solista:
+- Cod.solista
+- Nombre
+- Fecha de Nacimiento
+- DNI
+- Instrumento
+- 
+
+Obra:
+- Cod.obra
+- Titulo
+
+Compositor:
+- Cod.compositor
+- Nombre
+- DNI
+- Fecha de Nacimiento
+- Fecha defuncion (Puede ser nulo)
+
+Integrantes:
+- Cod.Integrantes 
+- ISA --> Director - Solista
+
+Instrumento:
+- Cod.instrumento
+- Nombre
+
+

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<asociacion>
+      <secciones>
+      
+      
+      <futbol>
+        <equipos>
+        
+          <equipo>
+            <nombre>Elbolas</nombre>
+            <entrenadores>
+              <entrenador DNI="99999999C">
+                <nombre>Alberto</nombre>
+                <direccion>
+                  <localidad>Madrid</localidad>
+                  <cp>28888</cp>
+                </direccion>
+                <telefono>998989762</telefono>
+                <nombre>Pedro</nombre>
+                <direccion>
+                  <localidad>Madrid</localidad>
+                  <cp>28833</cp>
+                </direccion>
+                <telefono>992359762</telefono>
+              </entrenador>
+              
+              <entrenador DNI="928374628S">
+              <nombre> Pedro</nombre>
+              <direccion>
+                  <localidad>Madrid</localidad>
+                  <cp>28888</cp>
+                </direccion>
+                <telefono>998989762</telefono>
+                <direccion>
+                  <localidad>Madrid</localidad>
+                  <cp>28833</cp>
+                </direccion>
+                <telefono>992359762</telefono>
+              </entrenador>
+              
+            </entrenadores>
+            
+           <jugador DNI="374932027X">
+           <nombre> Ekisde</nombre>
+              <direccion>
+                  <localidad>Madrid</localidad>
+                  <cp>28888</cp>
+                </direccion>
+                <telefono>998989762</telefono>
+                <direccion>
+                  <localidad>Madrid</localidad>
+                  <cp>28833</cp>
+                </direccion>
+                <telefono>992359762</telefono>
+           </jugador> 
+            
+            </equipo>
+            
+            
+            
+            
+        </equipos>
+      <futbol>
+      
+      
+      
+      
+      <secciones>
+</asociacion>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Buenos Propósitos 2022</title>
+      <meta charset="utf-8"/>
+	  <link rel="stylesheet" type="text/css" href="estilos.css" />
+    </head>
+    <body>
+        <div id="anyo">2022</div>
+			<div class="contenedor">
+				<div class="contenido">
+					<div class="izquierda">
+						<img src="img\propositosR.jpg">
+					</div>
+					<div class="derecha">
+						<div class="proposito">
+							<!-- aquí va la lista de los propósitos-->
+							<ol>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+							</ol>
+							<ol>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+								<li>----------------------
+									----------------------
+								</li>
+							</ol>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+    </body>
+</html>

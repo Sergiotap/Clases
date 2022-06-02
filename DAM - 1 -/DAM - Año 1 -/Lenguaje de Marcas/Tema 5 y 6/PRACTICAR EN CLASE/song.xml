@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE songs [
+<!ELEMENT songs (song+)>
+<!ATTLIST song año CDATA #IMPLIED>
+<!ATTLIST song length CDATA #IMPLIED>
+<!ATTLIST song titulo CDATA #REQUIRED>
+<!ELEMENT song (composers+,producars+,publisher+,artists+,fecha?)>
+<!ELEMENT composers (composer+)>
+<!ELEMENT composer (nombre+,apellidos+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT producars (producer)>
+<!ELEMENT producer (nombre+,apellidos+)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT artists (artist+)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT fecha EMPTY>
+<!ATTLIST fecha dia CDATA #IMPLIED>
+<!ATTLIST fecha mes CDATA #IMPLIED>
+<!ATTLIST fecha anio CDATA #IMPLIED>
+]>
+
+<songs>
+    <song titulo="Hot Cop" length="6.20" año="1978">
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+          <apellidos>Beolo</apellidos>
+        </composer>
+      </composers>
+      <producars>
+        <producer>
+          <nombre>Jacques</nombre>
+          <apellidos>Morali</apellidos>
+      </producer>
+      </producars>
+      <publisher>Polygram</publisher>
+      <artists>
+        <artist>Village Peopla</artist>
+      </artists>
+      <fecha dia="" mes="" anio=""></fecha>
+    </song>
+</songs>
+

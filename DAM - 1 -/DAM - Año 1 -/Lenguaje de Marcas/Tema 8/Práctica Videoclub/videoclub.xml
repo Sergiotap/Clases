@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xsi:noNamespaceSchemaLocation = "videoclub.xsd">
+	
+	
+	<factura>
+		<datos_cliente id_cliente="e1">
+			<nombre>Carlos</nombre>
+			<apellido1>Lizarran</apellido1>
+			<apellido2>gomez</apellido2>
+			<dni>1234567x</dni>
+			<telefono>666777888</telefono>
+		</datos_cliente>
+		<datos_ticket>
+			<resguardo>
+				<formaPago>Efectivo</formaPago>
+				<importe>21.00</importe>
+			</resguardo>
+			<alquiler fecha="21/12/2014">
+				<pelicula idPelicula="abcd1234">
+					<titulo>El viaje de Chihiro</titulo>
+					<genero>Anime</genero>
+					<duracion>145min</duracion>
+					<actor>Tomoko Yamaguchi</actor>
+					<actor>Nobou Maharu</actor>
+				</pelicula>
+				<pelicula idPelicula="abcd3456">
+					<titulo>Crash</titulo>
+					<genero>Accion</genero>
+					<duracion>170min</duracion>
+					<actor>Bruce Willis</actor>
+					<actor>Elsa Pataki</actor>
+					<actor>Dani Glober</actor>
+				</pelicula>
+			</alquiler>
+			<compra>
+				<dvd>
+					<titulo>Los Goonies</titulo>
+					<fecha>12/03/1983</fecha>
+					<extras/>
+				</dvd>
+      </compra>
+		</datos_ticket>
+	</factura>
+	
+	
+	<factura>
+		<datos_cliente id_cliente="e2">
+			<nombre>Laura</nombre>
+			<apellido1>Blanco</apellido1>
+			<dni>238457284l</dni>
+			<telefono>665554443</telefono>
+		</datos_cliente>
+		<datos_ticket>
+			<resguardo>
+				<formaPago>Tarjeta</formaPago>
+				<importe>12.00</importe>
+			</resguardo>
+			<compra>
+				<video>
+					<titulo>Irma la dulce</titulo>
+					<formato>VHS</formato>
+					<rewind/>
+				</video>
+				<dvd>
+					<titulo>Titanic</titulo>
+					<fecha>30/02/2000</fecha>
+					<extras/>
+				</dvd>
+				<video>
+					<titulo>Goshtship</titulo>
+					<formato>Super8</formato>
+					<rewind/>
+				</video>
+			</compra>
+		</datos_ticket>
+	</factura>
+	
+	
+</facturas>
