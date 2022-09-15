@@ -1,0 +1,3 @@
+POESIA {display: table; border:5px green solid; padding:10px;}
+ESTROFA {display:table-row; background-color:red; padding:5px;}
+VERSO {display:table-cell; border:2px blue solid; text-align:center; color: white;}

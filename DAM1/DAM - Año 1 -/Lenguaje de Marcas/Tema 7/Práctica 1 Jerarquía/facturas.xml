@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas [
+<!ELEMENT facturas (factura+)>
+<!ELEMENT factura (nombre+,avenida?,direccion+,cif+,telefono*,fax?,fecha,datoscliente+,datosfactura+)>
+    <!ATTLIST factura numfactura CDATA #REQUIRED>
+    <!ATTLIST factura numpedido CDATA #REQUIRED>
+    <!ATTLIST factura formapago CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT avenida (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datoscliente (nombre+,nif?,direccion+,poblacion+,cp+,provincia+,telefono?)>
+    <!ATTLIST datoscliente numcliente CDATA #REQUIRED>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT datosfactura (refer+)>
+<!ELEMENT refer (descripcion+,cantidad+,precio+,iva?,importe+)>
+    <!ATTLIST refer ref CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+]>
+
+<facturas>
+   <factura numfactura="999"  numpedido="731" formapago="efectivo">
+      <nombre>Equipos Digitales S.L.</nombre>
+     <avenida>Av. Valladolid</avenida>
+     <direccion>Madrid 28015</direccion>
+      <cif>Q-9876543</cif>
+      <telefono>917 776 688</telefono>
+      <fax>917 776 699</fax>
+      <fecha>12-01-2011</fecha>
+      <datoscliente numcliente="879">
+          <nombre>Darío Bueno Gutiérrez</nombre>
+          <nif>50253634A</nif>
+          <direccion>Av. Oporto nº7 4ºd</direccion>
+          <poblacion>Madrid</poblacion>
+          <cp>28043</cp>
+          <provincia>Madrid</provincia>
+          <telefono>913 336 681</telefono>
+      </datoscliente>
+      <datosfactura>
+        <refer ref="MII93000F/8">
+        <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+        <cantidad>1</cantidad>
+        <precio>230 euro</precio>
+        <iva>18,0</iva>
+        <importe>271,40 eur</importe>
+        </refer>
+        <refer ref="MB8QDIP4">
+        <descripcion>PLACA BASE QDI P4</descripcion>
+        <cantidad>1</cantidad>
+        <precio>180 euro</precio>
+        <iva>18,0</iva>
+        <importe>212,40 eur</importe>
+        </refer>
+        <refer ref="MEDD512M32">
+        <descripcion>DIMM DDR 512MB 3200</descripcion>
+        <cantidad>2</cantidad>
+        <precio>40 euro</precio>
+        <iva>18,0</iva>
+        <importe>94,40 eur</importe>
+        </refer>
+        <refer ref="HD250GSA7">
+        <descripcion>DISCO DURO SATA 250GB S-ATA 7200</descripcion>
+        <cantidad>4</cantidad>
+        <precio>120 euro</precio>
+        <iva>18,0</iva>
+        <importe>566,40 eur</importe>
+        </refer>
+      </datosfactura>
+   </factura> 
+</facturas>

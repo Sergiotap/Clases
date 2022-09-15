@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<! DOCTYPE taller [
+<!ELEMENT vehiculos (vehiculo+)>
+            <!ATTLIST vehiculo tipo CDATA #REQUIRED>
+<!ELEMENT vehiculo (problemas+)>
+            <!ATTLIST vehiculo capacidad CDATA #REQUIRED>
+            <!ATTLIST vehiculo tipo_combustible CDATA #REQUIRED>
+            <!ATTLIST vehiculo color CDATA #REQUIRED>
+            <!ATTLIST vehiculo marca CDATA #REQUIRED>
+<!ELEMENT problemas (piezas*,mecanico*)>
+]>
+
+
+

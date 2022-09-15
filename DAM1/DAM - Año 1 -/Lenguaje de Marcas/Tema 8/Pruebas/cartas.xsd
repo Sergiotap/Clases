@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="cartas">
+		<complexType>
+			<sequence>
+				<element name="carta" minOccurs="1" maxOccurs="unbounded">
+		<complexType>
+		<sequence>
+			<element name="de" type="string"/>
+			<element name="para" type="string" minOccurs="1" maxOccurs="2"/>
+			<element name="asunto" type="string" minOccurs="1" maxOccurs="2"/>
+			<element name="texto" type="string" minOccurs="1" maxOccurs="2"/>
+		</sequence>
+		</complexType>
+    </element>
+    </sequence>
+    </complexType>
+  </element>
+</schema>

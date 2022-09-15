@@ -1,0 +1,18 @@
+﻿<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="libros">
+		<complexType>
+			<sequence>
+				<element name="libro" minOccurs="1" maxOccurs="unbounded">
+		<complexType>
+		<sequence>
+			<element name="titulo" type="string"/>
+			<element name="autor" type="string" minOccurs="1" maxOccurs="2"/>
+			<element name="isbn" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="precio" type="decimal">
+		</sequence>
+		</complexType>
+    </element>
+    </sequence>
+      </complexType>
+      </element>
+</schema>

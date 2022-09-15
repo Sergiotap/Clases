@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejemplo8.css" type="text/css"?>
+<POEMA>
+         <VERSO> La <NOMBRE>princesa</NOMBRE> está triste... ¿qué tendrá la <NOMBRE>princesa</NOMBRE>?</VERSO>
+         <VERSO> Los suspiros se escapan de su boca de fresa,</VERSO>
+         <VERSO> que ha perdido la risa, que ha perdido el color.</VERSO>
+         <VERSO>... </VERSO>
+</POEMA>

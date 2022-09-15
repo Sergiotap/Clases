@@ -1,0 +1,77 @@
+
+
+    
+    /*          la página deber tener:
+        tipo de letra:"Comic Sans MS", cursive, sans-serif;
+        color del texto: #1e1e20
+        imagen de fondo: fondo.jpg
+    */
+ body {font-family:"Comic Sans MS";
+		color:#1e1e20;
+		background-image:url("img/fondo.jpg");
+		}
+
+
+
+/*caja con la clase "contenedor"*/
+ .contenedor{display: grid;
+			width:900px;
+			margin-top:10px;
+			margin-left:150px;
+			background-color:#e9e3e5;
+			border:solid 8px white;
+			border-radius:25px;
+			box-shadow:20px 20px 30px #DDAAAA;
+ /*
+    ancho: 900px
+    margen superior 10px
+    margen izquierdo 150px
+    color de fondo #e9e3e5
+    borde de color blanco
+    */
+}
+/*elemento con la clase contenido*/
+
+.contenido{background-color:#de5c82;
+		   margin:25px;
+ /*
+  color de fondo #de5c82;
+  alrededor tiene un margen de 25px
+  */
+}
+
+/*elemento con la clase derecha*/
+.derecha{float: right;
+		 background-color:#fadfe7;
+		 border:solid brown 1px;
+		 margin:25px;
+		 width:550px;
+		 border-radius:20px 0px 20px 0px;
+  /*color de fondo #fadfe7
+  borde de color marrón
+  margen de 25px
+  ancho de 550px
+  */
+}
+
+/*Elemento con la clase izquierda*/
+.izquierda{float: left;
+}
+
+/*Los elementos de la lista con la clase "proposito" van en cursiva y negrita*/
+.proposito{font-style:italic;
+		   font-weight:bold;
+		   columns:2;
+}
+
+/*El elemento con el identificador anyo*/
+#anyo{font-size:120px;
+	  color:gray;
+	  margin-left:475px;
+	  transition:4s;
+	  text-shadow:-5px -5px 10px gray;
+   /*tamaño de la letra:120px*/
+}
+#anyo:hover{font-size:200px;
+			
+}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<!--Información sobre alumnos-->
+	<clase>
+	
+		<alumno>
+			<nombre>Alfredo</nombre>
+			<apellido>Habichuela</apellido>
+			<apellido2>Judias</apellido2>
+			<telefono tipo="fijo">111223344</telefono>
+		</alumno>
+		
+		<alumno>
+			<nombre>Pedrito</nombre>
+			<apellido>ElTartas</apellido>
+			<apellido2>Mondongo</apellido2>
+			<telefono tipo="fijo">111292344</telefono>
+		</alumno>
+		
+		<alumno>
+			<nombre>Ojito</nombre>
+			<apellido>nose</apellido>
+			<apellido2>ajá</apellido2>
+			<telefono tipo="movil">145223344</telefono>
+		</alumno>	
+		
+	</clase>

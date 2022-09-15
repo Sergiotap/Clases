@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address SYSTEM "ext.dtd">
+<pedidos>
+  <pedido>
+      <empresa id="001">
+          <producto></producto>
+          <fecha></fecha>
+          <factura></factura>
+      </empresa>
+  </pedido>
+
+  <pedido>
+      <cliente DNI="9999282">
+          <producto> </producto>
+          <fecha> </fecha>
+          <factura></factura>
+      </cliente>
+  </pedido>
+  
+</pedidos>
+

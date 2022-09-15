@@ -1,0 +1,13 @@
+// Importar el paquete (librería)
+import java.util.*;
+
+
+public class pre {
+	public static void main(String[] args) {
+		System.out.print("Introduzca un número de día de la semana");
+		//Crear un objeto de la clase scanner
+		Scanner entrada = new Scanner(System.in);
+		//Ejecutar el método nestInt() para capturar por teclado
+		day=entrada.nextInt(); 
+	}
+}	
