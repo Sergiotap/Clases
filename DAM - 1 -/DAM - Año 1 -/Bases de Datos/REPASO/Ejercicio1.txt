@@ -1,4 +1,0 @@
-Centro
-Alumnos
-asignaturas
-calificaciones

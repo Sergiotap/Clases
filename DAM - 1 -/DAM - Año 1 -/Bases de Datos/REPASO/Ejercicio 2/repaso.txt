@@ -1,4 +1,0 @@
-Alumnos
-Asignaturas
-Calificaciones
-Carreras

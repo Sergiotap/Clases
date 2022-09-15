@@ -1,6 +1,0 @@
-Universidad X
-Alumnos
-Asignaturas
-Calificaciones
-Carreras
-Profesor
