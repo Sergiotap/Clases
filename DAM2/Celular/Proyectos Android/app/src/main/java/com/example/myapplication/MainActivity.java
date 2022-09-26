@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     TextView LContador;
     Button LReset;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,9 +46,18 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View view) {
                         contAr[0]=0;
                         LContador.setText(String.valueOf(contAr[0]));
+                        LSalida.setText("Hola Mundo de Nuevo");
                     }
                 }
         );
+
+        //Distinta forma
+        /*
+        Maneja Manejador = new Maneja (LSalida);
+        BContador.setOnClickListener(Manejador);
+        */
+
+
 
 
     }
