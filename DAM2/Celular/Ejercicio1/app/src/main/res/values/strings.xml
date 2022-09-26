@@ -2,4 +2,5 @@
     <string name="app_name">Ejercicio1</string>
     <string name="EBoton">Aceptar</string>
     <string name="LTitulo">Introduce tu nombre</string>
+    <string name="times">Times clicked</string>
 </resources>
